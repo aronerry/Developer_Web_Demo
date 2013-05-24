@@ -32,32 +32,7 @@ function map_clone() {
     // Set view to zoom maximum map extent
     // NOTE: This will fail if there is no base layer defined
     map_a.setCenter(new OpenLayers.LonLat(-100, 40), 3);
-    
-    
-    /*
-     * Initialize right map
-     */
-    
-    /*// Create the map using the specified DOM element
-    map_b = new OpenLayers.Map("map_b");
-    // Add a WMS layer
-    var wms = new OpenLayers.Layer.WMS("WMS Coastline", "http://vmap0.tiles.osgeo.org/wms/vmap0",
-    {
-        layers: 'coastline_01'
-    });
-    map_b.addLayer(wms);
-    // Add a WMS layer
-    var topo = new OpenLayers.Layer.WMS("WMS Ground", "http://vmap0.tiles.osgeo.org/wms/vmap0",
-    {
-        layers: "ground_01"
-    });
-    map_b.addLayer(topo);
-    // Add LayerSwitcher control
-    map_b.addControl(new OpenLayers.Control.LayerSwitcher());
-           
-    // Set view to zoom maximum map extent
-    // NOTE: This will fail if there is no base layer defined
-    map_b.setCenter(new OpenLayers.LonLat(-100, 40), 3);*/
+
 };
 
 function pickMapElement() {
